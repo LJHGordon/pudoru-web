@@ -35,7 +35,7 @@ const faqs = [
   {
     question: "Where is Pudoru based?",
     answer:
-      "Pudoru Inc. is incorporated in Delaware, USA. Our registered address is 131 Continental Dr, Suite 305, Newark, DE 19713.",
+      "Pudoru Inc. is based in West Vancouver, Canada. Our address is 403 Bury Lane, West Vancouver, BC, Canada V7S 1K4.",
   },
 ];
 

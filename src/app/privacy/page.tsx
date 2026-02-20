@@ -50,8 +50,8 @@ export default function PrivacyPolicy() {
             <p className="mb-1">
               <strong>Pudoru Inc.</strong>
             </p>
-            <p className="mb-1">131 Continental Dr, Suite 305</p>
-            <p className="mb-1">Newark, DE 19713, USA</p>
+            <p className="mb-1">403 Bury Lane</p>
+            <p className="mb-1">West Vancouver, BC, Canada V7S 1K4</p>
             <p className="mb-1">
               Privacy Contact:{" "}
               <a href="mailto:founder@pudoru.com">founder@pudoru.com</a>
@@ -659,9 +659,9 @@ export default function PrivacyPolicy() {
               <br />
               Attn: Privacy
               <br />
-              131 Continental Dr, Suite 305
+              403 Bury Lane
               <br />
-              Newark, DE 19713, USA
+              West Vancouver, BC, Canada V7S 1K4
             </p>
           </div>
           <p>

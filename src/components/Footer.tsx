@@ -45,7 +45,7 @@ export default function Footer() {
           {/* Bottom row: address + copyright */}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-2 pt-4 border-t border-border">
             <p className="text-xs text-text-muted text-center sm:text-left">
-              131 Continental Dr, Suite 305, Newark, DE 19713, USA
+              403 Bury Lane, West Vancouver, BC, Canada V7S 1K4
             </p>
             <p className="text-xs text-text-muted">
               &copy; {new Date().getFullYear()} Pudoru Inc. All rights reserved.

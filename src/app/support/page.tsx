@@ -131,7 +131,7 @@ export default function Support() {
         <div className="text-center text-sm text-text-muted border-t border-border pt-8">
           <p className="font-medium text-text-secondary">Pudoru Inc.</p>
           <p className="mt-1">
-            131 Continental Dr, Suite 305, Newark, DE 19713, USA
+            403 Bury Lane, West Vancouver, BC, Canada V7S 1K4
           </p>
         </div>
 
