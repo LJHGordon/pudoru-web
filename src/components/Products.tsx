@@ -5,13 +5,9 @@ import { motion } from "framer-motion";
 import {
   fadeInUp,
   cardHover,
-  buttonPress,
   transitions,
 } from "@/lib/animations";
-import { ExternalLink } from "lucide-react";
-
-const APP_STORE_URL =
-  "https://apps.apple.com/app/cozina-ai-recipe-organizer/id6740042905";
+import { Clock } from "lucide-react";
 
 export default function Products() {
   return (
@@ -51,19 +47,10 @@ export default function Products() {
                 photos and URLs, cook hands-free with voice guidance, and keep
                 your cookbook organized.
               </p>
-              <motion.a
-                href={APP_STORE_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                variants={buttonPress}
-                initial="rest"
-                whileHover="hover"
-                whileTap="tap"
-                className="mt-4 inline-flex items-center gap-2 bg-accent text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors hover:bg-accent/90"
-              >
-                Download on the App Store
-                <ExternalLink size={14} />
-              </motion.a>
+              <span className="mt-4 inline-flex items-center gap-2 bg-accent/10 text-accent text-sm font-medium px-5 py-2.5 rounded-lg">
+                <Clock size={14} />
+                Coming Soon on the App Store
+              </span>
             </div>
           </div>
         </motion.div>

@@ -10,7 +10,7 @@ const faqs = [
   {
     question: "What is Pudoru Inc.?",
     answer:
-      "Pudoru Inc. is a software company based in Newark, Delaware. We build consumer applications for iOS, focused on solving real everyday problems with thoughtful, accessible design.",
+      "Pudoru Inc. is a software company based in West Vancouver, Canada. We build consumer applications for iOS, focused on solving real everyday problems with thoughtful, accessible design.",
   },
   {
     question: "What apps does Pudoru make?",
@@ -30,7 +30,7 @@ const faqs = [
   {
     question: "Is Cozina free to use?",
     answer:
-      "Cozina offers a generous free tier with core features. Premium features like unlimited AI chat, advanced recipe import, and an ad-free experience are available through an optional subscription via the App Store.",
+      "Cozina will offer a generous free tier with core features. Premium features like unlimited AI chat, advanced recipe import, and an ad-free experience will be available through an optional subscription. Stay tuned for our launch!",
   },
   {
     question: "Where is Pudoru based?",
