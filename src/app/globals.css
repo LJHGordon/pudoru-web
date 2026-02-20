@@ -2,25 +2,74 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0a0a0a;
+  --surface: #f8f9fa;
+  --border: #e5e7eb;
+  --text-primary: #0a0a0a;
+  --text-secondary: #525252;
+  --text-muted: #9ca3af;
+  --accent: #1a1a2e;
+  --accent-light: #e8e8f0;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --font-sans: var(--font-inter);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Legal content styles */
+.legal-content h1 {
+  @apply text-3xl font-bold mb-4;
+}
+
+.legal-content h2 {
+  @apply text-xl font-semibold mt-8 mb-3;
+}
+
+.legal-content h3 {
+  @apply text-lg font-semibold mt-6 mb-3;
+}
+
+.legal-content p {
+  @apply mb-4 text-text-secondary leading-relaxed;
+}
+
+.legal-content ul {
+  @apply list-disc pl-6 mb-4 space-y-2;
+}
+
+.legal-content li {
+  @apply text-text-secondary;
+}
+
+.legal-content table {
+  @apply w-full border-collapse text-sm;
+}
+
+.legal-content th,
+.legal-content td {
+  @apply text-left text-text-secondary;
+}
+
+.legal-content a {
+  @apply text-accent underline hover:opacity-80;
 }
