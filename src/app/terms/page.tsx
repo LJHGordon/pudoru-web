@@ -446,9 +446,9 @@ export default function TermsOfService() {
           <h3>For Users Outside the European Union</h3>
           <p>
             These Terms shall be governed by and construed in accordance with the
-            laws of the Province of British Columbia, Canada, without regard to
+            laws of the State of Delaware, United States, without regard to
             conflict of law principles. Any disputes shall be resolved in the
-            courts located in Vancouver, British Columbia, Canada.
+            state or federal courts located in Delaware.
           </p>
 
           <h3>For Users in the European Union</h3>
@@ -462,10 +462,10 @@ export default function TermsOfService() {
 
           <h3>For Users Elsewhere</h3>
           <p>
-            For users outside Canada and the EU, these Terms shall be governed by
-            the laws of British Columbia, Canada, and disputes shall be resolved
-            in Vancouver, British Columbia courts, except where prohibited by
-            local law.
+            For users outside the United States and EU, these Terms shall be
+            governed by the laws of the State of Delaware, United States, and
+            disputes shall be resolved in Delaware courts, except where
+            prohibited by local law.
           </p>
 
           <h2>17. General Terms</h2>
