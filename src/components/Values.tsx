@@ -9,7 +9,7 @@ const values = [
     icon: Shield,
     title: "Privacy by Default",
     description:
-      "We don't sell data. We don't track behavior. We collect the minimum needed to make things work, and we're transparent about every byte.",
+      "We don't sell data. We don't run our own analytics or tracking. We collect the minimum needed to make things work, and we're transparent about every byte.",
   },
   {
     icon: Accessibility,

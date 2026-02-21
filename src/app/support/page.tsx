@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
-import { Mail, MessageCircle, BookOpen, Clock } from "lucide-react";
+import { Mail, Phone, MessageCircle, BookOpen, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Support - Pudoru Inc.",
   description:
-    "Get help with Pudoru Inc. products including Cozina. Contact our support team.",
+    "Get help with Pudoru Inc. products. Contact our support team.",
 };
 
 export default function Support() {
@@ -62,6 +62,26 @@ export default function Support() {
             </div>
           </div>
 
+          <div className="flex items-start gap-4 mb-6">
+            <div className="w-10 h-10 rounded-lg bg-accent/[0.06] flex items-center justify-center shrink-0">
+              <Phone size={20} className="text-accent" />
+            </div>
+            <div>
+              <h2 className="text-lg font-semibold text-text-primary">
+                Phone Support
+              </h2>
+              <p className="text-text-secondary mt-1">
+                Call or text us during business hours.
+              </p>
+              <a
+                href="tel:+13025653888"
+                className="inline-block mt-3 text-accent font-medium hover:underline"
+              >
+                +1 (302) 565-3888
+              </a>
+            </div>
+          </div>
+
           <div className="flex items-start gap-4">
             <div className="w-10 h-10 rounded-lg bg-accent/[0.06] flex items-center justify-center shrink-0">
               <Clock size={20} className="text-accent" />
@@ -99,8 +119,8 @@ export default function Support() {
               </h3>
             </div>
             <p className="text-sm text-text-secondary">
-              Manage subscriptions via Settings &rarr; Apple ID &rarr;
-              Subscriptions on your device.
+              Manage subscriptions via your device settings or the app store
+              from which you subscribed.
             </p>
           </div>
           <div className="bg-white rounded-xl border border-border p-5">
