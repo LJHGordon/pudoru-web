@@ -39,9 +39,9 @@ export default function PrivacyPolicy() {
           <p>
             This Privacy Policy explains how Pudoru Inc. (&quot;we,&quot;
             &quot;our,&quot; or &quot;us&quot;) collects, uses, discloses, and
-            safeguards your information when you use our mobile applications and
-            services, including Cozina. We are committed to protecting your
-            privacy and being transparent about our data practices.
+            safeguards your information when you use our applications and
+            services. We are committed to protecting your privacy and being
+            transparent about our data practices.
           </p>
 
           <h2>Data Controller</h2>
@@ -71,8 +71,7 @@ export default function PrivacyPolicy() {
           <ul>
             <li>
               <strong>Account Information:</strong> Email address and name
-              provided during sign-in (via Apple, Google, or email
-              authentication)
+              provided during sign-in
             </li>
             <li>
               <strong>User ID:</strong> A unique identifier for your account
@@ -132,10 +131,10 @@ export default function PrivacyPolicy() {
                     Internet Activity
                   </td>
                   <td className="px-4 py-2 border-b border-border">
-                    Ad interactions (impressions, clicks)
+                    Browsing or interaction data
                   </td>
                   <td className="px-4 py-2 border-b border-border">
-                    By AdMob SDK**
+                    By third-party SDKs only
                   </td>
                 </tr>
                 <tr>
@@ -152,10 +151,10 @@ export default function PrivacyPolicy() {
                     Audio/Visual
                   </td>
                   <td className="px-4 py-2 border-b border-border">
-                    Images, voice commands
+                    Images
                   </td>
                   <td className="px-4 py-2 border-b border-border">
-                    On-device only*
+                    On-device only
                   </td>
                 </tr>
                 <tr>
@@ -175,26 +174,6 @@ export default function PrivacyPolicy() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-text-muted">
-            *Voice commands during cooking sessions are processed entirely on
-            your device using Apple&apos;s on-device speech recognition. Voice
-            input for the AI chat assistant may use Apple&apos;s speech
-            recognition services to improve accuracy; see{" "}
-            <a
-              href="https://support.apple.com/en-us/102124"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Apple&apos;s Siri &amp; Dictation privacy policy
-            </a>{" "}
-            for details.
-          </p>
-          <p className="text-sm text-text-muted">
-            **The Google AdMob SDK collects ad interaction data for
-            non-personalized ad serving. This data is not linked to your
-            identity. See the &quot;Third-Party Advertising&quot; section for
-            details.
-          </p>
 
           <h3>Sources of Personal Information</h3>
           <p>We collect personal information from:</p>
@@ -204,11 +183,11 @@ export default function PrivacyPolicy() {
               content, or contact support
             </li>
             <li>
-              <strong>Authentication providers:</strong> Apple Sign-In or Google
-              Sign-In (name and email only)
+              <strong>Authentication providers:</strong> Name and email only,
+              when you sign in using a third-party authentication provider
             </li>
             <li>
-              <strong>Apple App Store:</strong> Subscription verification
+              <strong>Platform app stores:</strong> Subscription verification
               (transaction IDs only)
             </li>
           </ul>
@@ -226,47 +205,9 @@ export default function PrivacyPolicy() {
             </li>
             <li>
               <strong>No Cross-App Tracking:</strong> We do not track you across
-              other apps or websites. Ads served in our applications are
-              non-personalized.
+              other apps or websites
             </li>
           </ul>
-
-          <h2>Third-Party Advertising</h2>
-          <p>
-            Some of our applications display non-personalized ads via the Google
-            AdMob SDK. To serve and optimize these ads, the AdMob SDK may
-            automatically collect the following data:
-          </p>
-          <ul>
-            <li>
-              <strong>Device Identifiers:</strong> Used for frequency capping and
-              ad fraud prevention (not for behavioral profiling)
-            </li>
-            <li>
-              <strong>Crash &amp; Performance Data:</strong> Used by the AdMob
-              SDK for diagnostics and ad delivery optimization
-            </li>
-            <li>
-              <strong>Ad Interaction Data:</strong> Ad impressions and clicks,
-              used to measure ad performance
-            </li>
-          </ul>
-          <p>
-            This data is collected by Google, not by Pudoru Inc. It is{" "}
-            <strong>not linked to your identity</strong> and is{" "}
-            <strong>not used for tracking</strong> or personalized advertising.
-            We request only non-personalized ads (NPA). For details on
-            Google&apos;s data practices, see the{" "}
-            <a
-              href="https://policies.google.com/privacy"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Google Privacy Policy
-            </a>
-            .
-          </p>
-          <p>Pro subscribers do not see ads.</p>
 
           <h2>Legal Basis for Processing (GDPR)</h2>
           <p>
@@ -381,48 +322,29 @@ export default function PrivacyPolicy() {
           </p>
 
           <h2>Third-Party Services</h2>
-          <p>Our applications integrate with the following third-party services:</p>
+          <p>
+            Our applications may integrate with the following categories of
+            third-party services:
+          </p>
           <ul>
             <li>
-              <strong>Supabase:</strong> Database hosting and authentication
-              infrastructure (
-              <a
-                href="https://supabase.com/privacy"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Privacy Policy
-              </a>
-              )
+              <strong>Database Hosting:</strong> Cloud-based database
+              infrastructure for storing and syncing your data
             </li>
             <li>
-              <strong>Apple Sign-In / Google Sign-In:</strong> Authentication
-              providers for secure account access
+              <strong>Authentication Providers:</strong> Third-party sign-in
+              services for secure account access
             </li>
             <li>
-              <strong>Apple App Store:</strong> Subscription and payment
-              processing (we do not receive or store your payment card details)
+              <strong>Payment Processing:</strong> Platform app stores handle
+              subscription and payment processing (we do not receive or store
+              your payment card details)
             </li>
             <li>
-              <strong>Google AdMob:</strong> Non-personalized ad serving. The
-              AdMob SDK may collect device identifiers, crash data, performance
-              data, and ad interaction data. See the &quot;Third-Party
-              Advertising&quot; section above for details. (
-              <a
-                href="https://policies.google.com/privacy"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Privacy Policy
-              </a>
-              )
-            </li>
-            <li>
-              <strong>AI Services (Optional):</strong> If you provide your own
-              API key in settings, your queries may be processed by OpenAI,
-              Anthropic, or Google AI. These are opt-in and require your explicit
-              configuration. We do not store or have access to your API keys
-              beyond your local device.
+              <strong>Ad Networks:</strong> Third-party advertising SDKs may
+              serve non-personalized ads in free tiers of our applications. These
+              SDKs may collect device identifiers, performance data, and ad
+              interaction data. Pro subscribers do not see ads.
             </li>
           </ul>
 
@@ -561,8 +483,7 @@ export default function PrivacyPolicy() {
           <p>
             We do not use your personal data for automated decision-making that
             produces legal effects or similarly significant effects concerning
-            you. Any AI features in our applications are used to assist with
-            content processing and do not make decisions about you.
+            you.
           </p>
 
           <h2>Children&apos;s Privacy</h2>
@@ -591,12 +512,12 @@ export default function PrivacyPolicy() {
               stored on our servers
             </li>
             <li>
-              <strong>Row-Level Security:</strong> Database policies ensure you
+              <strong>Access Controls:</strong> Database policies ensure you
               can only access your own data
             </li>
             <li>
               <strong>Secure Authentication:</strong> We use industry-standard
-              authentication via Apple, Google, or secure email verification
+              authentication protocols for account access
             </li>
             <li>
               <strong>Regular Security Reviews:</strong> We regularly review and

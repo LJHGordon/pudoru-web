@@ -40,8 +40,8 @@ export default function TermsOfService() {
             Welcome to Pudoru Inc. These Terms of Service (&quot;Terms&quot;)
             constitute a legally binding agreement between you and Pudoru Inc.
             (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) governing your
-            access to and use of our mobile applications and related services,
-            including Cozina (collectively, the &quot;Service&quot;).
+            access to and use of our applications and related services
+            (collectively, the &quot;Service&quot;).
           </p>
           <p>
             <strong>
@@ -84,20 +84,15 @@ export default function TermsOfService() {
 
           <h2>3. Description of Service</h2>
           <p>
-            Pudoru Inc. develops consumer applications for iOS. Our current
-            applications include:
+            Pudoru Inc. develops consumer applications for iOS and other
+            platforms. Our applications may include features such as content
+            creation, data syncing across devices, subscription-based premium
+            features, and other functionality as described in the respective app
+            listings.
           </p>
-          <ul>
-            <li>
-              <strong>Cozina:</strong> A cooking assistance application that
-              helps you import and organize recipes, get AI-powered cooking
-              guidance, manage cooking timers, generate shopping lists, and sync
-              data across devices
-            </li>
-          </ul>
           <p>
-            Some features may require a paid subscription. See Section 6 for
-            subscription terms.
+            Some features may require a paid subscription. See the Subscriptions
+            and Payments section for subscription terms.
           </p>
 
           <h2>4. User Accounts</h2>
@@ -166,16 +161,18 @@ export default function TermsOfService() {
 
           <h3>Payment Processing</h3>
           <p>
-            All subscriptions are processed through Apple&apos;s App Store. By
+            All subscriptions are processed through the platform app store or
+            payment processor from which you downloaded the application. By
             subscribing:
           </p>
           <ul>
             <li>
-              Payment is charged to your Apple ID account at confirmation of
+              Payment is charged to your app store account at confirmation of
               purchase
             </li>
             <li>
-              Apple&apos;s terms and privacy policy apply to payment processing
+              The app store&apos;s or payment processor&apos;s terms and privacy
+              policy apply to payment processing
             </li>
             <li>
               We do not receive or store your payment card information
@@ -183,40 +180,20 @@ export default function TermsOfService() {
           </ul>
 
           <h3>Automatic Renewal</h3>
-          <div className="bg-amber-50 border border-amber-200 p-4 rounded-lg mb-4">
-            <p className="font-semibold mb-2">
-              Important Auto-Renewal Information:
-            </p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>
-                <strong>Your subscription will automatically renew</strong> at
-                the end of each billing period unless you cancel at least 24
-                hours before the renewal date
-              </li>
-              <li>
-                <strong>Renewal charge:</strong> Your subscription will renew at
-                the same price as your current subscription period
-              </li>
-              <li>
-                <strong>How to cancel:</strong> Go to Settings &rarr; Apple ID
-                &rarr; Subscriptions on your device, select the app, and tap
-                &quot;Cancel Subscription&quot;
-              </li>
-            </ul>
-          </div>
+          <p>
+            Your subscription will automatically renew at the end of each
+            billing period unless you cancel at least 24 hours before the
+            renewal date. Renewal will be charged at the same price as your
+            current subscription period. To cancel, use the subscription
+            management feature in your device settings or the app store from
+            which you subscribed.
+          </p>
 
           <h3>Refunds</h3>
           <p>
-            Refunds are processed by Apple according to their{" "}
-            <a
-              href="https://support.apple.com/en-us/HT204084"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              refund policy
-            </a>
-            . To request a refund, contact Apple Support or use the &quot;Report
-            a Problem&quot; feature in your purchase history.
+            Refunds are processed by the platform app store according to their
+            refund policy. To request a refund, contact the app store&apos;s
+            support or use their refund request feature.
           </p>
 
           <h3>Price Changes</h3>
@@ -314,58 +291,7 @@ export default function TermsOfService() {
             <li>Your content complies with these Terms and applicable law</li>
           </ul>
 
-          <h2>9. AI Features and Disclaimer</h2>
-          <p>
-            Some of our applications use artificial intelligence to assist with
-            content processing and guidance. Please understand:
-          </p>
-          <ul>
-            <li>
-              <strong>AI Limitations:</strong> AI-generated content is provided
-              for informational purposes only and may contain errors,
-              inaccuracies, or omissions
-            </li>
-            <li>
-              <strong>No Professional Advice:</strong> AI suggestions are not a
-              substitute for professional advice
-            </li>
-            <li>
-              <strong>User Verification:</strong> You should always independently
-              verify AI-generated content
-            </li>
-            <li>
-              <strong>Optional Third-Party AI:</strong> If you configure your own
-              API keys for OpenAI, Anthropic, or Google AI, your queries will be
-              processed by those third parties under their respective terms
-            </li>
-          </ul>
-
-          <h2>10. Food Safety Disclaimer</h2>
-          <p>
-            Our cooking applications provide guidance for{" "}
-            <strong>informational purposes only</strong>. We are not responsible
-            for:
-          </p>
-          <ul>
-            <li>Allergic reactions or adverse health effects</li>
-            <li>Food safety issues arising from recipe preparation</li>
-            <li>Accuracy of nutritional information or calorie counts</li>
-            <li>Suitability of recipes for specific dietary requirements</li>
-          </ul>
-          <p>
-            <strong>Always:</strong>
-          </p>
-          <ul>
-            <li>Use proper food handling and storage techniques</li>
-            <li>Verify cooking temperatures with a food thermometer</li>
-            <li>
-              Consult healthcare professionals about dietary restrictions or
-              allergies
-            </li>
-            <li>Check ingredient labels for allergens</li>
-          </ul>
-
-          <h2>11. Intellectual Property</h2>
+          <h2>9. Intellectual Property</h2>
           <p>
             The Service, including its design, features, code, graphics,
             trademarks, and branding, is owned by Pudoru Inc. and protected by
@@ -383,7 +309,7 @@ export default function TermsOfService() {
             purposes in accordance with these Terms.
           </p>
 
-          <h2>12. Privacy</h2>
+          <h2>10. Privacy</h2>
           <p>
             Your use of the Service is also governed by our{" "}
             <Link href="/privacy">Privacy Policy</Link>, which describes how we
@@ -391,7 +317,7 @@ export default function TermsOfService() {
             you consent to the practices described in the Privacy Policy.
           </p>
 
-          <h2>13. Disclaimer of Warranties</h2>
+          <h2>11. Disclaimer of Warranties</h2>
           <p>
             <strong>For users in the United States:</strong> THE SERVICE IS
             PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT
@@ -410,7 +336,7 @@ export default function TermsOfService() {
             content.
           </p>
 
-          <h2>14. Limitation of Liability</h2>
+          <h2>12. Limitation of Liability</h2>
           <p>
             <strong>For users in the United States:</strong> TO THE MAXIMUM
             EXTENT PERMITTED BY LAW, PUDORU INC. SHALL NOT BE LIABLE FOR ANY
@@ -420,7 +346,7 @@ export default function TermsOfService() {
           <ul>
             <li>Loss of data, content, or profits</li>
             <li>Service interruptions or downtime</li>
-            <li>Results from following app suggestions or AI content</li>
+            <li>Results from following app suggestions or content</li>
             <li>Third-party actions, content, or services</li>
             <li>Unauthorized access to or alteration of your data</li>
           </ul>
@@ -442,7 +368,7 @@ export default function TermsOfService() {
             </li>
           </ul>
 
-          <h2>15. Indemnification</h2>
+          <h2>13. Indemnification</h2>
           <p>
             <strong>For users in the United States:</strong> You agree to
             indemnify, defend, and hold harmless Pudoru Inc. and its officers,
@@ -462,13 +388,14 @@ export default function TermsOfService() {
             law.
           </p>
 
-          <h2>16. Termination</h2>
+          <h2>14. Termination</h2>
 
           <h3>Termination by You</h3>
           <p>
             You may stop using the Service at any time. To delete your account
             and all associated data, use the in-app settings. Active
-            subscriptions must be canceled separately through the App Store.
+            subscriptions must be canceled separately through the app store from
+            which you subscribed.
           </p>
 
           <h3>Termination by Us</h3>
@@ -487,11 +414,12 @@ export default function TermsOfService() {
           <p>
             Upon termination: (a) your license to use the Service terminates; (b)
             you remain liable for any obligations incurred before termination;
-            (c) Sections 8 (User Content licenses), 11 (IP), 13-15 (Disclaimers,
-            Liability, Indemnification), and 17-19 (General Terms) survive.
+            (c) the following provisions survive termination: User Content
+            licenses, Intellectual Property, Disclaimers, Limitation of
+            Liability, Indemnification, Governing Law, and General Terms.
           </p>
 
-          <h2>17. Changes to Terms</h2>
+          <h2>15. Changes to Terms</h2>
           <p>
             We may update these Terms from time to time. When we make material
             changes:
@@ -513,14 +441,14 @@ export default function TermsOfService() {
             date.
           </p>
 
-          <h2>18. Governing Law and Disputes</h2>
+          <h2>16. Governing Law and Disputes</h2>
 
-          <h3>For Users in the United States</h3>
+          <h3>For Users Outside the European Union</h3>
           <p>
             These Terms shall be governed by and construed in accordance with the
-            laws of the State of Delaware, United States, without regard to
+            laws of the Province of British Columbia, Canada, without regard to
             conflict of law principles. Any disputes shall be resolved in the
-            state or federal courts located in Delaware.
+            courts located in Vancouver, British Columbia, Canada.
           </p>
 
           <h3>For Users in the European Union</h3>
@@ -534,12 +462,13 @@ export default function TermsOfService() {
 
           <h3>For Users Elsewhere</h3>
           <p>
-            For users outside the US and EU, these Terms shall be governed by the
-            laws of Delaware, USA, and disputes shall be resolved in Delaware
-            courts, except where prohibited by local law.
+            For users outside Canada and the EU, these Terms shall be governed by
+            the laws of British Columbia, Canada, and disputes shall be resolved
+            in Vancouver, British Columbia courts, except where prohibited by
+            local law.
           </p>
 
-          <h2>19. General Terms</h2>
+          <h2>17. General Terms</h2>
 
           <h3>Entire Agreement</h3>
           <p>
@@ -592,7 +521,7 @@ export default function TermsOfService() {
             language, the English version shall prevail in case of any conflict.
           </p>
 
-          <h2>20. Contact Us</h2>
+          <h2>18. Contact Us</h2>
           <p>
             If you have questions about these Terms of Service, please contact
             us:
